@@ -1,0 +1,5 @@
+<view class="container" page-change >
+<view class="title">当前语种：{{curLang.chs}}</view>
+<view class="item" wx:for="{{languageArray}}"  data-index="{{index}}" wx:key="index" bindtap="changeLang">
+{{item.chs}}</view>
+</view>

@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container" page-index>
+	<view class="change">
+		<navigator url="/pages/change/change" hover-class="navigator-hover">选择语言：{{curLang.chs}}</navigator>
+	</view>
+	<view class="input">
+		<view class="weui-cells weui-cells_after-title ">
+			<view class="weui-cell weui-cell_input">
+				<textarea class="weui-input" bindinput="onInPut" bindblur="onconfirm" 
+				bindconfirm="onconfirm" 
+				value="{{inputValue}}" placeholder="请输入翻译内容" />
+				<view class="icon-small-wrp">
+					<icon class="icon-small" hidden="{{hidden}}" type="cancel" size="23" bindtap="clearAll"></icon>
+				</view>
+			</view>
+      <text class="title">译文：</text>
+			<view class="weui-cells__title">{{result}}</view>
+		</view>
+	</view>
+
+</view>

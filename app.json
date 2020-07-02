@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history",
+    "pages/change/change"
+  ],
+  "tabBar": {
+    "backgroundColor":"#CCCCCC",
+    "color":"#999999",
+    "position":"top",
+    "borderStyle":"black",
+    "selectedColor":"#000000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "翻译"
+    }, {
+      "pagePath": "pages/history/history",
+      "text": "历史"
+    }]
+  },
+  "window":{
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "梓羽翻译",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
